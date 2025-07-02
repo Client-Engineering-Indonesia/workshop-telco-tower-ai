@@ -36,14 +36,14 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 ---
 
-### 🗂️_Step 3 — Menambahkan *Asset* Baru_
+### 🗂️ _Step 3 — Menambahkan *Asset* Baru_
 1. Masuk ke tab **Assets** dan klik **New Asset**.
 
 ![10.Make a New Asset](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/10.Make%20a%20new%20Assets.png)
 
 ---
 
-### 🧠_Step 4 — Buat AI Agent_
+### 🧠 _Step 4 — Buat AI Agent_
 - Klik **New Asset** di sisi kiri dan pilih **Build an AI Agent to Automate Tasks**.
 
 ![Build AI Agent](https://github.com/user-attachments/assets/c6dde849-5455-45a8-a82d-9cd11b135933)
