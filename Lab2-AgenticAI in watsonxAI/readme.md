@@ -20,7 +20,7 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 ---
 
-## 🔗_Step 2 — Mengasosiasikan watsonx.ai Runtime_
+## 🔗 _Step 2 — Mengasosiasikan watsonx.ai Runtime_
 
 1. Buka Halaman Project dan tekan **Manage**
 
