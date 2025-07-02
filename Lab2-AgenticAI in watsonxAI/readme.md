@@ -1,4 +1,4 @@
-# Membuat AI Agent dengan **watsonx.ai** & **LangGraph**
+# 🤖Membuat AI Agent dengan **watsonx.ai** & **LangGraph**
 
 Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.AI Agent Lab*. Agent ini akan menganalisis data Customer yang mengakses BTS.
 
@@ -6,7 +6,7 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 ---
 
-# Tahapan Pembuatan Agent
+# 🧭Tahapan Pembuatan Agent
 
 ## _Step 1 — Membuat *Project*_
 
@@ -20,7 +20,7 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 ---
 
-## _Step 2 — Mengasosiasikan watsonx.ai Runtime_
+## 🔗_Step 2 — Mengasosiasikan watsonx.ai Runtime_
 
 1. Buka Halaman Project dan tekan **Manage**
 
@@ -36,19 +36,19 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 ---
 
-### Step 3 — Menambahkan *Asset* Baru
+### 🗂️_Step 3 — Menambahkan *Asset* Baru_
 1. Masuk ke tab **Assets** dan klik **New Asset**.
 
 ![10.Make a New Asset](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/10.Make%20a%20new%20Assets.png)
 
 ---
 
-### Step 4 — Buat AI Agent
+### 🧠_Step 4 — Buat AI Agent_
 - Klik **New Asset** di sisi kiri dan pilih **Build an AI Agent to Automate Tasks**.
 
 ![Build AI Agent](https://github.com/user-attachments/assets/c6dde849-5455-45a8-a82d-9cd11b135933)
 
-## Step 5 - Instruksi ke agent 
+## 📝 _Step 5 - Instruksi ke agent_
 
 1. Masukan text di **Agent instructions** sesuai dengan kebutuhan dan fungsi yang dibutuhkan
 
@@ -78,7 +78,7 @@ When greeted, say "Hi, I am watsonx.ai agent. How can I help you?""
 ![Agent Instruction](https://github.com/user-attachments/assets/062cc7ad-4510-4c08-91cc-9f2b0a94d64d)
 
 
-## Step 6 — Tambahkan Tools untuk Agent
+## 🧰 _Step 6 — Tambahkan Tools untuk Agent_
 Di dalam Agent lab watsonx.ai, kita dapat menambahkan tools yang sudah tersedia atau bisa mengkostumisasi tools sebgai berikut:
 
 1. Tools di **Add atool**
@@ -86,7 +86,7 @@ Di dalam Agent lab watsonx.ai, kita dapat menambahkan tools yang sudah tersedia 
 
 Pada Bagian ini kita cukup menambahkan Google Search sebagai tools yang akan digunakan.
 
-## Step 7 — Tambahkan Custom Tools untuk Agent
+## 🛠️ _Step 7 — Tambahkan Custom Tools untuk Agent_
 Pada step ini, kita hanya menggunakan custom tool dikarenakan data yang digunakan merupakan data structured yang harus dikoneksikan ke dalam DB2.
 oleh karnea itu kita akan menambahkan custom tool dalam Agent lab watsonx.AI.
 
@@ -184,7 +184,7 @@ def db2_init(question):
 ```
 
 
-## Step 7— Konfigurasi Model & Parameter Agent
+## ⚙️ _Step 8— Konfigurasi Model & Parameter Agent_
 
 Pada step ini kita dapat meng-konfiguurasi parameter dan dapat memilih untuk menggunakan model yang sesuai dengan kebutuhan kita.
 
@@ -200,7 +200,7 @@ Selanjutnya kita bisa untuk mengkonfigurasikan model dan parameter
   ![Add Tool](https://github.com/user-attachments/assets/3f3f10d8-d993-4694-a12c-e30b54d5b1d7)
   <img width="1237" alt="image" src="https://github.com/user-attachments/assets/6e4875be-2be3-410f-bac9-bf31c8268673" />
 
-## Step 8 — Test Agent
+## 🧪 _Step 9 — Test Agent_
 Coba pertanyaan berikut:
 ### **Natural Langguage to SQL (Data Analyzer) Agent**
 
@@ -209,15 +209,15 @@ Coba pertanyaan berikut:
 - show me how much each providers average monthly charge.
 - What is the reason Telkomsel charge less than other Providers?
 
-## Step 9 — Lihat Respon Agent
+## 👀Step 10 — Lihat Respon Agent
 
 ![16. Test the AI Agent with the question](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/16.%20Test%20the%20AI%20Agent%20with%20the%20questions.png)
 
-## Step 10 — Simpan Agent
+## 💾_Step 11 — Simpan Agent_
 
 ![Save Agent](https://github.com/user-attachments/assets/3c0363a7-cfdf-481a-b365-9ccc0fb1686e)
 
-## Step 11 — Export Agent
+## 📤 _Step 12 — Export Agent_
 - Simpan agent ke dalam notebook atau file yang bisa diedit untuk modifikasi selanjutnya.
 
 ![Export Agent](https://github.com/user-attachments/assets/3b1d61d0-7285-4621-88cf-8144cee6f598)
