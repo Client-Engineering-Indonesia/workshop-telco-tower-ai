@@ -2,7 +2,7 @@
 
 Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.AI Agent Lab*. Agent ini akan menganalisis data Customer yang mengakses BTS.
 
-> **Catatan** File‐file yang diperlukan dapat diunduh dari folder “📂 yang telah disediakan”.
+> **Catatan** File‐file yang diperlukan dapat diunduh dari folder “📂 Assets”.
 
 ---
 
