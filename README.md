@@ -1,4 +1,4 @@
-# Workshop Telco Tower Company (Generative AI and Machine Learning)
+# Workshop Telco Tower Company (Generative AI, Machine Learning, and AI Data Integration)
 This is the material for Workshop containing material related to Agentic AI and Streamset
 ###### *Conducted on July 3, 2025.*
 ### Agenda Highlights:
