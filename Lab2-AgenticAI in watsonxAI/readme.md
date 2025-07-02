@@ -213,7 +213,7 @@ Coba pertanyaan berikut:
 
 ![16. Test the AI Agent with the question](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/16.%20Test%20the%20AI%20Agent%20with%20the%20questions.png)
 
-## 💾_Step 11 — Simpan Agent_
+## 💾 _Step 11 — Simpan Agent_
 
 ![Save Agent](https://github.com/user-attachments/assets/3c0363a7-cfdf-481a-b365-9ccc0fb1686e)
 
