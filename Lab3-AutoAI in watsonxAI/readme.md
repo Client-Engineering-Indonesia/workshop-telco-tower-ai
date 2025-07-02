@@ -193,5 +193,118 @@ Tabel ini menunjukkan seberapa banyak prediksi model yang benar dan salah. Gunan
 
 ## Step 5: Deploy
 
+Setelah model selesai dibuat, sekarang saatnya **men-deploy** model ke layanan **Watson Machine Learning** agar bisa digunakan untuk melakukan prediksi. Deployment adalah tahap akhir dari siklus model machine learning. Di tahap ini, model yang sudah dilatih siap dijalankan dan digunakan.  
+
+Watson Machine Learning menggunakan **Deployment Spaces** untuk mengatur model dan aset yang diperlukan agar model bisa diuji dan digunakan.
+
+1. **Buka halaman project** dan cari model Machine Learning yang telah Anda buat di tahap sebelumnya.
+<img width="1440" alt="Screenshot 2025-07-02 at 14 13 19" src="https://github.com/user-attachments/assets/149dddba-9bcb-4634-b7a9-98d853772480" />
+
+2. Klik tombol **tiga titik (⁝)** di bagian kanan model, lalu pilih **Promote to space**.
+<img width="1440" alt="Screenshot 2025-07-02 at 14 43 48" src="https://github.com/user-attachments/assets/32c46cc7-4214-4b77-bdc0-127e56f43b98" />
+
+4. Akan muncul formulir deployment.  Pada bagian **Target Deployment Space**, pilih deployment space yang sudah disediakan untuk Anda.
+<img width="1440" alt="Screenshot 2025-07-02 at 14 43 54" src="https://github.com/user-attachments/assets/58b73110-6792-428c-bb94-e21862eeb313" />
+
+5. Klik **Promote**. Setelah selesai, klik link **deployment space** yang ada di success message atau buka menu **deployment space** dari sidebar.
+<img width="1440" alt="Screenshot 2025-07-02 at 14 44 16" src="https://github.com/user-attachments/assets/b1d0484f-7209-4cb8-9c49-5e07b11e955a" />
+
+6. Pada Deployment Space, buka **Assets** dan klik tombol **tiga titik (⁝)** di bagian kanan ML Anda, lalu pilih **Deploy**.
+<img width="1440" alt="Screenshot 2025-07-02 at 15 22 41" src="https://github.com/user-attachments/assets/5d3eee4b-649d-49c5-81c3-f8c2c053f5cf" />
+
+7. Akan muncul formulir **Create a deployment**. Isi sesuai dengan foto dibawah dan klik **Create**
+<img width="1440" alt="Screenshot 2025-07-02 at 15 24 03" src="https://github.com/user-attachments/assets/aa2269d6-8e0c-4a2d-ab47-3fa37c43de19" />
+
+
+8. Deployment akan diproses. Setelah statusnya menjadi **Deployed**, klik **deployment name** tersebut
+<img width="1440" alt="Screenshot 2025-07-02 at 15 24 34" src="https://github.com/user-attachments/assets/a5da82d2-66d9-4cea-a6b8-508c2964ebfb" />
+
+9. Di halaman **Test**, Anda dapat menjalankan prediksi terhadap model yang sudah dibuat dengan memasukkan nilai untuk setiap variabel yang mungkin memengaruhi keputusan pelanggan untuk berhenti berlangganan.
+<img width="1440" alt="Screenshot 2025-07-02 at 15 48 08" src="https://github.com/user-attachments/assets/3611031e-3c2b-4b7c-bb9e-90b16a5fbbfe" />
+
+Anda bisa mengisi data satu per satu melalui form yang tersedia, atau langsung menggunakan format JSON. 
+
+Klik tab **JSON**, lalu salin dan tempel data di bawah ini ke kolom input, kemudian klik **Predict**.
+```
+{
+  "input_data": [
+    {
+      "fields": [
+        "Customer ID", "Referred a Friend", "Number of Referrals", "Tenure in Months", "Offer",
+        "Phone Service", "Avg Monthly Long Distance Charges", "Multiple Lines", "Internet Service",
+        "Internet Type", "Avg Monthly GB Download", "Online Security", "Online Backup",
+        "Device Protection Plan", "Premium Tech Support", "Streaming TV", "Streaming Movies",
+        "Streaming Music", "Unlimited Data", "Contract", "Paperless Billing", "Payment Method",
+        "Monthly Charge", "Total Regular Charges", "Total Refunds", "Total Extra Data Charges",
+        "Total Long Distance Charges", "Gender", "Age", "Under 30", "Senior Citizen", "Married",
+        "Dependents", "Number of Dependents", "City", "Zip Code", "Latitude", "Longitude",
+        "Population", "CLTV", "Churn Category", "Churn Reason", "Total Customer Svc Requests",
+        "Product/Service Issues Reported", "Customer Satisfaction"
+      ],
+      "values": [
+        [
+          "9000-TEST1", "Yes", 1, 24, "Offer B", "Yes", 15.5, "Yes", "Yes", "Fiber Optic", 30,
+          "Yes", "No", "No", "Yes", "Yes", "Yes", "No", "Yes", "Two Year", "Yes", "Credit Card",
+          95.75, 2300.00, 0, 0, 350.00, "F", 35, "No", "No", "Yes", "Yes", 2, "Jakarta", "12345",
+          -6.2, 106.8, 50000, 4000, "", "", 2, 1, 4
+        ]
+      ]
+    }
+  ]
+}
+```
+<img width="1440" alt="Screenshot 2025-07-02 at 16 06 29" src="https://github.com/user-attachments/assets/f78d109e-46e2-4ce3-b328-6f5c12b2a5f6" />
+
+
+### 📈 Hasil Prediction
+<img width="1440" alt="Screenshot 2025-07-02 at 16 01 51" src="https://github.com/user-attachments/assets/2143ecb1-e4ec-4948-a6b8-bd9719912504" />
+
+Berdasarkan data JSON di atas:
+- Usia 35 tahun, perempuan
+- Menikah, memiliki 2 tanggungan
+- Internet aktif dengan penggunaan layanan streaming
+- Biaya bulanan cukup tinggi dan kepuasan pelanggan baik
+
+Maka model memprediksi **0 (tidak churn)**, yang berarti pelanggan ini diperkirakan akan tetap berlangganan.
+
+**Confidence**: 100% — artinya model sangat yakin terhadap prediksi ini.
+
+
+10. Coba Kombinasi Input Lain untuk **Melihat Perubahan Prediksi**
+
+Contoh:
+
+- Ganti Churn Category menjadi "Competitor" dan Churn Reason menjadi "Competitor offered more data"
+- Ganti "Gender" ke "F" → apakah hasil berubah?
+- Ubah Total Long Distance Charges menjadi 300 dan Avg Monthly GB Download menjadi 345
+- Ganti "Married" ke "No" untuk melihat apakah status pernikahan berpengaruh
+- Turunkan Customer Satisfaction menjadi 1 → lihat apakah confidence prediksi berubah
+
+🧠 Anda akan melihat bahwa mengubah beberapa parameter dapat memengaruhi:
+- Nilai prediksi (0 = tidak churn, 1 = churn)
+- Atau tingkat confidence dari model, walaupun prediksi tetap sama
+<img width="1440" alt="Screenshot 2025-07-02 at 15 50 13" src="https://github.com/user-attachments/assets/a3c11ab1-4fc8-47f0-a164-450c1c56b88e" />
+
+Dengan mencoba berbagai kombinasi input, kita bisa memahami lebih dalam bagaimana model machine learning bekerja dan apa saja faktor yang paling berpengaruh terhadap prediksi churn. Langkah ini juga mendemonstrasikan bagaimana model ML yang kita buat bisa langsung diaplikasikan dalam use case nyata perusahaan dengan pendekatan yang **fleksibel dan terkustomisasi.**
+
+---
+
+## 👋 Penutup
+
+Selamat! Anda telah berhasil menyelesaikan Lab AutoAI! 🎉 Proses yang biasanya membutuhkan berhari-hari hingga berminggu-minggu, kini bisa diselesaikan dalam waktu singkat dan lebih insightful berkat bantuan AutoAI. Semoga lab ini bermanfaat dan bisa menjadi awal dari eksplorasi lebih lanjut di bidang AI dan data science.
+
+Buka data di pagi hari,
+
+Prediksi churn kini dimengerti.
+
+AutoAI bantu proses cepat sekali,
+
+Belajar AI jadi tak ngeri!
+
+😁🙏
+---
+
+
+
 
 
