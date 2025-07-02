@@ -26,9 +26,8 @@ Dalam workshop ini, peserta akan belajar:
 ## Step 1: Membuat Project Watsonx
 1. Buka halaman **IBM watsonx** di: https://dataplatform.cloud.ibm.com. Login dengan account yang sama seperti lab sebelumnya
 2. Buka halaman **Projects** dengan membuka **Project > View all projects**
-<img width="1440" alt="Screenshot 2025-07-02 at 12 45 29" src="https://github.com/user-attachments/assets/b5b63a84-c9c0-4613-9fd4-f5e546568505" />
-
 #### Jika Anda telah membuat project pada lab sebelumnya, gunakan project yang sama dan langsung lanjut ke `Step 2: Menambahkan Datasource ke Project`. Jika belum, buat project baru dengan melanjutkan ke tahapan di bawah 
+<img width="1440" alt="Screenshot 2025-07-02 at 12 45 29" src="https://github.com/user-attachments/assets/b5b63a84-c9c0-4613-9fd4-f5e546568505" />
 
 3. Klik **New Project**
 
