@@ -35,5 +35,5 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 ![4.CLick the option and IBM Watsonx](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/4.Click%20the%20Option%20and%20IBM%20WatsonX.png)
 
-5. Lanjutkan TUtorial di Readme.md selanjutnya.
+5. Lanjutkan Tutorial di Readme.md selanjutnya.
 ---
