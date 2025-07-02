@@ -1,4 +1,4 @@
-# Membuat AI Agent dengan **watsonx.ai** & **Crew AI**
+# Membuat AI Agent dengan **watsonx.ai** & **LangGraph**
 
 Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.AI Agent Lab*. Agent ini akan menganalisis data Customer yang mengakses BTS.
 
@@ -12,7 +12,7 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 1. Scroll kebawah lalu buat Project baru di **Watsonx.AI** dengan menekan tombol "+".
 
-![5.Create new Project for agent]()
+![5.Create new Project for agent](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/5.Create%20new%20Project%20for%20agent.png)
 
 2. Menamai dan membuat project baru.
 
@@ -24,11 +24,11 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 
 1. Buka Halaman Project dan tekan **Manage**
 
-![6.Press Manage]()
+![6.Press Manage](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/6.Press%20Manage.png)
 
 2. Buka **Services & Integrations → Associate Service**.
 
-![7.Press Service Integration]()
+![7.Press Service Integration](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/7.Press%20Service%20Integration.png)
 
 3. Pilih **watsonx.ai** lalu kaitkan dengan project.
 
@@ -39,7 +39,7 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 ### Step 3 — Menambahkan *Asset* Baru
 1. Masuk ke tab **Assets** dan klik **New Asset**.
 
-![10.Make a New Asset]()
+![10.Make a New Asset](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/10.Make%20a%20new%20Assets.png)
 
 ---
 
