@@ -166,7 +166,7 @@ def db2_init(question):
     DB2_HOST = 'b0aebb68-94fa-46ec-a1fc-1c999edb6187.c3n41cmd0nqnrk39u98g.databases.appdomain.cloud'
     DB2_PORT = '31249'
     DB2_USERNAME = 'klq31162'
-    DB2_PASSWORD = 'BNaI2KASSPDP2g0k'
+    DB2_PASSWORD = '<PASS>'
     
     db2_dsn = 'DATABASE={};HOSTNAME={};PORT={};PROTOCOL=TCPIP;UID={uid};PWD={pwd};SECURITY=SSL'.format(
         'bludb',
