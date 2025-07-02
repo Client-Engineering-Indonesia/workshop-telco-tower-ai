@@ -1,5 +1,5 @@
 # Workshop Telco Tower Company (Generative AI, Machine Learning, and AI Data Integration)
-This is the material for Workshop containing material related to Agentic AI and Streamset
+This is the github repository for Workshop containing material related to Agentic AI and Streamset
 ###### *Conducted on July 3, 2025.*
 ### Agenda Highlights:
 - Introduction to Knowledge Update for IBM Data and AI Product
