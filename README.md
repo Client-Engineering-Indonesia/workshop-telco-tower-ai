@@ -11,8 +11,8 @@ This is the material for Workshop containing material related to Agentic AI and 
 | Time | Activity | Duration (mins) |
 | --- | ---  | ---    |
 | 09.15 - 09.30 | Registration & Welcome | 15   |
-| 09.30 - 09.45 | IBM Product Update Data and AI | 15   |
-| 09.45 - 10.00 | **IBM Perspective in Telco Tower and Introduction to watsonxA.I** | 15  |
+| 09.30 - 09.45 | **IBM Product Update Data and AI** | 15   |
+| 09.45 - 10.00 | **IBM Perspective in Telco Tower and Introduction to watsonx.AI** | 15  |
 | 10.00 - 10.30 | **Agent Lab - Build your Generative AI Agent with watsonx.AI** | 30  |
 | 10.30 - 11.00 | **Auto AI - Speed up your Machine Learning Creation with Auto AI** | 30  |
 | 11.00 - 11.30 | **POC Enablement- Revenue Tower Forecast by Inoventi** | 30  |
