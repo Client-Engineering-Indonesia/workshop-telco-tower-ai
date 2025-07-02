@@ -211,7 +211,7 @@ Coba pertanyaan berikut:
 
 ## Step 9 — Lihat Respon Agent
 
-![16. Test the AI Agent with the question]()
+![16. Test the AI Agent with the question](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/16.%20Test%20the%20AI%20Agent%20with%20the%20questions.png)
 
 ## Step 10 — Simpan Agent
 
