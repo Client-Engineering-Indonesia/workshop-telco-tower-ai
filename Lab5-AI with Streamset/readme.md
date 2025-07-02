@@ -1,43 +1,39 @@
-# Data Integration with StreamSets
+# Integrasi Data dengan StreamSets
 
-This lab guides you through setting up a complete data integration flow using **StreamSets**, from environment setup to building a credit scoring machine learning pipeline.
+Lab ini membimbing Anda melalui proses pengaturan alur integrasi data lengkap menggunakan **StreamSets**, mulai dari pengaturan lingkungan hingga membangun pipeline machine learning untuk credit scoring.
 
-### Key Features
-1. **No-Code Data Integration**  
-   IBM StreamSets provides a rich graphical interface for building pipelines using drag-and-drop connectors and processors—no coding required.
+### Fitur Utama
+1. **Integrasi Data Tanpa Kode**  
+   StreamSets menyediakan antarmuka grafis yang kaya untuk membangun pipeline menggunakan konektor dan processor drag-and-drop—tanpa perlu menulis kode.
 
-2. **Schema Flexibility**  
-   StreamSets handles dynamic and evolving data schemas seamlessly. It automatically adapts to changes, ensuring pipelines remain functional even when data structures shift.
+2. **Fleksibilitas Skema**  
+   StreamSets mampu menangani skema data yang dinamis dan berubah-ubah secara otomatis, sehingga pipeline tetap berjalan meskipun struktur data berubah.
 
-3. **Modular and Reusable Pipelines**  
-   Build efficient and scalable pipelines using reusable fragments, parameterization, and job templates. This promotes maintainability and reduces duplication.
+3. **Modular dan Reusable Pipelines**  
+   Bangun pipeline yang efisien dan scalable dengan memanfaatkan reusable fragments, parameterization, dan job templates. Hal ini memudahkan pemeliharaan dan mengurangi duplikasi.
 
 4. **Custom Data Transformations**  
-   Add business-specific logic using embedded scripts (Groovy, Jython, and more), enabling highly customized data processing within pipelines.
+   Tambahkan logika bisnis spesifik menggunakan embedded script (Groovy, Jython, dan lainnya), sehingga pemrosesan data dalam pipeline dapat disesuaikan sesuai kebutuhan.
 
-5. **Real-Time Monitoring and Debugging**  
-   Monitor pipelines with real-time metrics, snapshots, and previews. This visibility allows for quick issue identification and performance optimization.
+5. **Real-Time Monitoring dan Debugging**  
+   Pantau pipeline secara real-time dengan metrik, snapshot, dan preview. Fitur ini memudahkan identifikasi masalah dan optimasi performa.
 
 6. **Broad Connectivity**  
-   Connect seamlessly to a wide range of data sources and targets including databases, cloud storage, messaging systems, and more—across platforms and technologies.
-
----
-
-### Step 1. Setup StreamSets Platform  
-Begin by installing and configuring the StreamSets platform environment.  
+   Terhubung dengan berbagai sumber dan target data seperti database, cloud storage, messaging system, dan lainnya—lintas platform dan teknologi.
+   
+   
+### Langkah 1. Setup StreamSets Platform  
+Mulailah dengan menginstal dan mengonfigurasi lingkungan StreamSets platform.  
 📂 [1. setup streamsets](https://github.com/Client-Engineering-Indonesia/workshop-maybank-2025/tree/main/Lab%203%20-%20Data%20Integration%20with%20Streamsets/1.%20setup%20streamsets)
 
-
-### Step 2. (Optional) Setup StreamSets Engine (Data Collector)  
-If you're running a self-managed instance or want full control over your pipelines, set up your own StreamSets Data Collector engine.  
+### Langkah 2. (Opsional) Setup StreamSets Engine (Data Collector)  
+Jika Anda menjalankan instance self-managed atau ingin kontrol penuh atas pipeline Anda, lakukan setup StreamSets Data Collector engine sendiri.  
 📂 [2. setup data collector](https://github.com/Client-Engineering-Indonesia/workshop-maybank-2025/tree/main/Laba%203%20-%20Data%20Integration%20with%20Streamsets/2.%20setup%20data%20collector)
 
-
-### Step 3. Setup Pipeline: Data Generator  
-This step walks you through creating a simulated data generator pipeline to feed downstream processing.  
+### Langkah 3. Setup Pipeline: Data Generator  
+Langkah ini membimbing Anda membuat pipeline data generator simulasi untuk kebutuhan pemrosesan selanjutnya.  
 📂 [3. data generator](https://github.com/Client-Engineering-Indonesia/workshop-maybank-2025/tree/main/Lab%203%20-%20Data%20Integration%20with%20Streamsets/3.%20data%20generator)
 
-
-### Step 4. Setup Pipeline: Machine Learning (Credit Scoring)  
-Finally, build and deploy a machine learning pipeline for credit scoring using the previously generated data.  
+### Langkah 4. Setup Pipeline: Machine Learning (Credit Scoring)  
+Terakhir, bangun dan deploy pipeline machine learning untuk credit scoring menggunakan data yang telah dihasilkan sebelumnya.  
 📂 [4. credit pipeline](https://github.com/Client-Engineering-Indonesia/workshop-maybank-2025/tree/main/Lab%203%20-%20Data%20Integration%20with%20Streamsets/4.%20credit%20pipeline)
