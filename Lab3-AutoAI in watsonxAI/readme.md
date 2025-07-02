@@ -291,17 +291,10 @@ Dengan mencoba berbagai kombinasi input, kita bisa memahami lebih dalam bagaiman
 
 ## 👋 Penutup
 
-Selamat! Anda telah berhasil menyelesaikan Lab AutoAI! 🎉 Proses yang biasanya membutuhkan berhari-hari hingga berminggu-minggu, kini bisa diselesaikan dalam waktu singkat dan lebih insightful berkat bantuan AutoAI. Semoga lab ini bermanfaat dan bisa menjadi awal dari eksplorasi lebih lanjut di bidang AI dan data science.
-
-Buka data di pagi hari,
-
-Prediksi churn kini dimengerti.
-
-AutoAI bantu proses cepat sekali,
-
-Belajar AI jadi tak ngeri!
+*Selamat! Anda telah berhasil menyelesaikan Lab AutoAI! 🎉* Proses yang biasanya membutuhkan berhari-hari hingga berminggu-minggu, kini bisa diselesaikan dalam waktu singkat dan lebih insightful berkat bantuan AutoAI. Semoga lab ini bermanfaat dan bisa menjadi awal dari eksplorasi lebih lanjut di bidang AI dan data science.
 
 😁🙏
+
 ---
 
 
