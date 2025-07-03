@@ -204,9 +204,9 @@ Selanjutnya kita bisa untuk mengkonfigurasikan model dan parameter
 Coba pertanyaan berikut:
 ### **Natural Langguage to SQL (Data Analyzer) Agent**
 
+- show me how much each providers average monthly charge.
 - how many customer do we have?
 - which provider has the biggest avg GB use?
-- show me how much each providers average monthly charge.
 - What is the reason Telkomsel charge less than other Providers?
 
 ## 👀Step 10 — Lihat Respon Agent
