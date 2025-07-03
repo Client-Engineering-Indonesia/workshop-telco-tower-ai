@@ -13,7 +13,7 @@ Pada lab ini, kita akan membuat **Data Analyzer** dengan memanfaatkan *watsonx.A
 1. click link [https://cloud.ibm.com/authorize/itzwatsonx5]
 2. Masukkan Username : user_6863b2d4ab@techzone.ibm.com , Password : 6py52b50zh3ynz4
 
-![Log In](SS Log IN)
+![Log In](https://github.com/Client-Engineering-Indonesia/workshop-telco-tower-ai/blob/main/Lab2-AgenticAI%20in%20watsonxAI/Assets/0.%20Log%20in.png)
 
 ---
 
