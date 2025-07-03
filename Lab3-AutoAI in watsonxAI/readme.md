@@ -4,7 +4,7 @@ Machine learning merupakan teknologi yang kini digunakan hampir di setiap aspek 
 
 Namun, kebutuhan terhadap data scientist yang memiliki berbagai keahlian seperti matematika, statistik, machine learning, database, visualisasi data, serta pemahaman domain masih sulit dipenuhi. Idealnya, data scientist seharusnya lebih banyak menghabiskan waktu pada tugas-tugas strategis yang berfokus pada wawasan dan analisis mendalam, bukan pada aktivitas teknis yang repetitif dan memakan waktu.
 
-Untuk menjawab tantangan ini, IBM menghadirkan [AutoAI](https://www.ibm.com/products/watson-studio/autoai) sebagai bagian dari IBM Watson Studio. AutoAI adalah teknologi yang mengotomatisasi proses pembuatan model machine learning secara visual dan intuitif, baik untuk pengguna awam maupun ilmuwan data. Proses yang biasanya memerlukan waktu berhari-hari atau berminggu-minggu kini bisa diselesaikan dalam waktu yang jauh lebih singkat.
+Untuk menjawab tantangan ini, IBM menghadirkan [AutoAI](https://www.ibm.com/products/watson-studio/autoai) sebagai bagian dari IBM Watson Studio. AutoAI adalah teknologi yang mengotomatisasi proses pembuatan model machine learning secara visual dan intuitif, baik untuk beginners maupun data scientist profesional. Proses yang biasanya memerlukan waktu berhari-hari atau berminggu-minggu kini bisa diselesaikan dalam waktu yang jauh lebih singkat.
 
 Fitur utama AutoAI antara lain:
 - Pre-processing data
