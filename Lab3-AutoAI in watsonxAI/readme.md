@@ -8,10 +8,11 @@ Untuk menjawab tantangan ini, IBM menghadirkan [AutoAI](https://www.ibm.com/prod
 
 Fitur utama AutoAI antara lain:
 - Pre-processing data
-- Pemilihan model secara otomatis
+- Automated model selection
+- Feature engineering
 - Optimisasi hyperparameter
-- Integrasi pemantauan model (model monitoring)
-- Dukungan validasi model 
+- Model monitoring integration
+- Model validation support
 
 ## 🎯 Auto AI Workshop 
 Workshop ini bertujuan untuk memperkenalkan cara menggunakan otomatisasi dalam pekerjaan sehari-hari di organisasi, dengan bantuan IBM Watson Studio dengan AutoAI.
